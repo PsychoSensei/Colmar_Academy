@@ -1,6 +1,6 @@
-div, header, footer, ul, a {
+/*div, header, footer, ul, a {
   border: 2px dashed blue
-}
+}*/
 
 
 /* Universal Styles */
@@ -172,7 +172,7 @@ nav a {
   display: flex;
   background-color: white;
   width: 100%;
-  border-top-color: blue;
+  margin-top: 4rem;
 }
 
 .feature {
@@ -185,7 +185,7 @@ nav a {
 
 .feature-testimonial {
   flex: 1;
-  max-width: 65%;
+  max-width: 60%;
 }
 
 .feature-testimonial img {
@@ -205,17 +205,37 @@ nav a {
 }
 
 .featurettes-section {
+ margin-top: 2rem;
   display: block;
-  max-width: 35%;
+  width: 423px;
 }
 
 .featurette-one, .featurette-two, .featurette-three {
-  display: inline-block;
+  display: flex;
+}
+
+.featurette-one:hover, .featurette-two:hover, .featurette-three:hover {
+  background-color: #d8d8d8
 }
 
 .featurette-image {
+  flex: 1;
   max-width: 35%;
   margin: 1rem;
+}
+
+.featurette-image img {
+  max-width: 100%;
+}
+
+.featurette-text {
+  width: 60%;
+  align-items: center;
+  margin: auto 0;
+}
+
+.featurette-text p {
+  margin: .5rem 0;
 }
 
 @media only screen and (max-width: 760px) {

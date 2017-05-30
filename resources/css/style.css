@@ -1,6 +1,6 @@
-/*div, header, footer, ul, a {
+div, header, footer, ul, a {
   border: 2px dashed blue
-}*/
+}
 
 
 /* Universal Styles */
@@ -38,16 +38,19 @@ h3 {
 h4 {
   font-size: 1.5rem;
   color: #4a4a4a;
-
 }
 
-@media only screen and (min-width: 760px) {
+p {
+  line-height: 1.25rem;
+}
+
+@media only screen and (min-width: 860px) {
   #mobile {
   display: none;
 }
 }
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 860px) {
   #desktop {
     display:none;
   }
@@ -98,7 +101,7 @@ nav a {
 
 
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 860px) {
 
   header #mobile {
     display: block;
@@ -118,6 +121,10 @@ nav a {
 
   header .mobile li {
     padding: 0;
+  }
+
+#mobile img {
+    width: 100%;
   }
 }
 /* Banner Section */
@@ -175,13 +182,13 @@ nav a {
   margin-top: 4rem;
 }
 
-.feature {
+/* .feature {
   flex: 1;
   padding: 2rem;
   margin: 0px 1.25rem;
   background-color: white;
   width: auto;
-}
+}*/
 
 .feature-testimonial {
   flex: 1;
@@ -208,6 +215,11 @@ nav a {
  margin-top: 2rem;
   display: block;
   width: 423px;
+  height: 168px;
+}
+
+.featurettes-section a {
+  color: blue;
 }
 
 .featurette-one, .featurette-two, .featurette-three {
@@ -244,11 +256,123 @@ nav a {
 
 /* Classes Section */
 
+.classes-section {
+  background-color: #d8d8d8;
+  }
+
+.classes-section h2 {
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 2rem;
+  text-align: center;
+}
+
+.class-tiles {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 16px auto;
+  max-width: 1100px;
+}
+
+.tile {
+  width: 330px;
+  height: 330px;
+  margin: 1rem;
+  background-color: white;
+}
+
+.tile img {
+  width: 100%
+}
+
+.tile-text {
+  margin: 0 1rem;
+}
+
+.tile-text h4 {
+  margin: 1rem 0;
+}
+
+.tile-text p {
+  margin: .5rem 0;
+}
+
 @media only screen and (max-width: 760px) {
 
 }
 
 /* Thesis Exhibit Section */
+
+
+.thesis-section h2 {
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 2rem;
+  text-align: center;
+  font-weight: bold;
+  color: black;
+
+}
+
+.thesis-exhibit {
+  display: flex;
+  background-color: white;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+ .thesis-exhibit h4 {
+  font-weight: bold;
+  color: black;
+}
+
+.feature-exhibit {
+  flex: 1;
+  max-width: 60%;
+}
+
+.feature-exhibit video {
+  /* adding this reduces the size of image to the size of it's container */
+  display: block;
+  width: 95%;
+  height: auto;
+  margin: 0 1rem 1.5rem 1.5rem;
+}
+
+.exhibits-section {
+  display: block;
+  width: 423px;
+  height: 168px;
+}
+
+.exhibit-one, .exhibit-two, .exhibit-three {
+  display: flex;
+}
+
+.exhibit-one:hover, .exhibit-two:hover, .exhibit-three:hover {
+  background-color: #d8d8d8
+}
+
+.exhibit-image {
+  flex: 1;
+  max-width: 35%;
+  margin: 1rem;
+}
+
+.exhibit-image img {
+  max-width: 100%;
+}
+
+.exhibit-text {
+  width: 60%;
+  align-items: center;
+  margin: auto 0;
+}
+
+.featurette-text p {
+  margin: .5rem 0;
+}
+
 
 @media only screen and (max-width: 760px) {
 

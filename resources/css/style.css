@@ -1,6 +1,6 @@
-div, header, footer, ul, a {
+/* div, header, footer, ul, a {
   border: 2px dashed blue
-}
+} */
 
 
 /* Universal Styles */
@@ -286,6 +286,7 @@ nav a {
    width: 90%;
    margin: 1rem 0;
 }
+}
 
 /* Classes Section */
 
@@ -347,7 +348,6 @@ nav a {
 }
 
 /* Thesis Exhibit Section */
-
 
 .thesis-section h2 {
   width: 100%;

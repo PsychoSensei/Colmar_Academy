@@ -331,8 +331,19 @@ nav a {
   margin: .5rem 0;
 }
 
-@media only screen and (max-width: 760px) {
-
+@media only screen and (max-width: 860px) {
+.tile img, .tile p{
+  display:none;
+}
+.tile {
+  width: 100%;
+  height: auto;
+  margin: .5rem 1rem;
+  background-color: #9b9b9b;
+}
+.tile-text {
+  background-color: #9b9b9b;
+}
 }
 
 /* Thesis Exhibit Section */
